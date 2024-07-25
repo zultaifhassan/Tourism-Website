@@ -18,7 +18,7 @@ export default function App() {
       <div className="home-main-first">
         <div className='slider-inner-text'>
 
-        <h1>Welcome to Karakoram Safari</h1>
+        <h1>Welcome to <br />Karakoram Safari</h1>
         <p>Discover the hidden gems of World!</p>
         <button>Discover Now</button>
         </div>

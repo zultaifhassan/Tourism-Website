@@ -1,0 +1,63 @@
+.services-outer-div {
+    /* background-color: red; */
+}
+
+.services-inner-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 100px 0;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.services-sec-head {
+  text-align: center;
+}
+
+.services-sec-head h1 {
+    font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.services-sec-head p {
+    font-style: 20px;
+  color: gray;
+}
+
+.services-boxes {
+  display: flex;
+  gap: 40px;
+}
+
+.service-box1 {
+  border: 1px solid rgba(128, 128, 128, 0.216);
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-box1:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.service-box1 img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.service-box1 h2 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.service-box1 p {
+  font-size: 15px;
+}
