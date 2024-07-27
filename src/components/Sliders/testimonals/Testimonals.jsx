@@ -27,7 +27,7 @@ const Testimonals = () => {
         <div className="swiper-boxes">
           <Swiper
             slidesPerView={2}
-            spaceBetween={30}
+            spaceBetween={40}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
