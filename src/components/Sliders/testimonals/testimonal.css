@@ -3,7 +3,7 @@
   display: flex;
   background-repeat: no-repeat;
   padding: 100px 0;
-  background-size: cover;
+  background-size: contain;
 }
 
 .testimonal-inner-div {
@@ -33,11 +33,13 @@
 
 .swiper-boxes {
     width: 100%;
+    /* border: 1px solid green; */
 }
 
 .testimonal-inner-div .swiper {
   width: 70%;
   padding: 0 40px;
+  /* border: 1px solid red; */
 }
 
 .testimonal-inner-div .swiper .swiper-slide {
@@ -98,9 +100,9 @@
   left: 5px;
   background-color: gray;
   font-size: 20px;
-  padding: 15px 20px;
+  padding: 13px 17px;
   font-weight: 700;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .testimonal-outer-div .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
@@ -109,7 +111,7 @@
   right: 5px;
   background-color: gray;
   font-size: 20px;
-  padding: 15px 20px;
+  padding: 13px 17px;
   font-weight: 700;
-  border-radius: 50px;
+  border-radius: 10px;
 }

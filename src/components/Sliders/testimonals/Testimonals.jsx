@@ -80,7 +80,7 @@ const Testimonals = () => {
                 <div className="user-img-name">
                   <img src="/Images/slider/user.jpg" alt="" />
                   <div className="user-location">
-                    <h2>Zultaif Hassan</h2>
+                    <h2>James Smith</h2>
                     <span>
                       <CiLocationOn />
                       <h3>Indonesia</h3>
@@ -100,7 +100,7 @@ const Testimonals = () => {
                 <div className="user-img-name">
                   <img src="/Images/slider/user.jpg" alt="" />
                   <div className="user-location">
-                    <h2>Zultaif Hassan</h2>
+                    <h2>James Smith</h2>
                     <span>
                       <CiLocationOn />
                       <h3>Indonesia</h3>
