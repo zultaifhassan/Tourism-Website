@@ -7,7 +7,7 @@
 
 .main-navbar {
     /* padding: 10px; */
-    background-color: #120b0baa !important;
+    background-color: #f2ededcc !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,12 +26,9 @@
     align-items: center;
 }
 
-.nav-logo-side h2 {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    color: #fff;
+.nav-logo-side img {
+    height: 80px;
+    width: 120px;
 }
 
 .nav-center-links ul {
@@ -42,16 +39,18 @@
 .nav-center-links ul li {
     list-style: none;
     font-family: Poppins;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: 450;
     line-height: 27px;
     text-align: left;
     letter-spacing: 1px;
     cursor: pointer;
 
 }
-
+ .nav-center-links ul li a {
+    color: #000;
+ }
+ 
 .nav-book-button button {
     padding: 10px 30px;
     cursor: pointer;
@@ -62,4 +61,6 @@
     border-radius: 5px;
     border: none;
     outline: none;
+    background: #03ABEA;
+    color: #fff;
 }

@@ -7,7 +7,8 @@ const Navbar = () => {
     <div className="main-navbar">
       <div className="navbar-inner">
         <div className="nav-logo-side">
-          <h2>KarakoramSafari</h2>
+          {/* <h2>KarakoramSafari</h2> */}
+          <img src="/Images/logo.png" alt="logo" />
         </div>
         <div className="nav-center-links">
           <ul>

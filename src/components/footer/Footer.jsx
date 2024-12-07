@@ -14,11 +14,12 @@ const Footer = () => {
       <div className="footer-outer">
         <div className="footer-inner">
           <div className="footer-logo">
-            <h2>KarakoramSafari</h2>
+            <img src="/Images/logo.png"></img>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloremque praesentium numquam blanditiis harum nam, laborum dicta
-              ipsam a eos culpa?
+              "Travel with Karakoram Safari – where adventure meets serenity!
+              Explore majestic peaks, vibrant cultures, and untouched wilderness
+              with expert guides. Your journey to unforgettable memories starts
+              here!"
             </p>
           </div>
           <div className="footer-address">
@@ -70,9 +71,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <div className="footer-copy-inner">
-          <p>
-            Copyright &copy; 2024 KarakoramSafari. All rights reserved.
-          </p>
+          <p>Copyright &copy; 2024 KarakoramSafari. All rights reserved.</p>
           <p>Developed by: Zultaif Hassan</p>
         </div>
       </div>

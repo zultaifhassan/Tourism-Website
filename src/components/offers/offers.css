@@ -1,5 +1,5 @@
 .packages-section {
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 .package-inner {
@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 10px; */
 }
 
 .packages-heading h2 {
@@ -38,7 +37,7 @@
 
 .package-item {
     padding: 20px;
-    background-color: rgba(227, 227, 227, 0.167);
+    background-color: rgba(211, 209, 209, 0.167);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
