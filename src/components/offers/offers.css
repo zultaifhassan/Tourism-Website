@@ -31,16 +31,49 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 38px;
+    justify-content: space-between;
 }
 
 
 .package-item {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: rgba(211, 209, 209, 0.167);
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 29%;
+    width: 30.5%;
+    margin: 30px 0;
+}
+
+.package-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.price-duration {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-days {
+    width: 250px;
+}
+
+.price-days span {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.days-persons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.days-persons h3 {
+    font-size: 20px;
+}
+
+.calender-time {
+    padding: 0px 20px 20px 20px;
 }
