@@ -38,80 +38,31 @@ const Offers = () => {
             </div>
           </div>
           <div className="package-item">
-            <img src="/Images/packages/Fm.jpg" />
+            <img src="/Images/packages/beiging.webp" />
             <div className="price-duration">
               <div className="price-days">
                 <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
+                <div className="location-icon">
+                <CiLocationOn fontSize={20} />
+                <h1>China</h1>
+                <img src="/Images/packages/China.webp" alt="image" />
+                </div>
               </div>
               <div className="days-persons">
                 <span>Per Person</span>
                 <h3>$500</h3>
+                <div className="calender-icon">
+                  <CiCalendar fontSize={20} />
+                  8 Days
+                </div>
               </div>
             </div>
+
             <div className="calender-time">
               <button>Book Now</button>
             </div>
           </div>
-          <div className="package-item">
-            <img src="/Images/packages/Fm.jpg" />
-            <div className="price-duration">
-              <div className="price-days">
-                <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
-              </div>
-              <div className="days-persons">
-                <span>Per Person</span>
-                <h3>$500</h3>
-              </div>
-            </div>
-            <div className="calender-time">
-              <button>Book Now</button>
-            </div>
-          </div>
-          <div className="package-item">
-            <img src="/Images/packages/Fm.jpg" />
-            <div className="price-duration">
-              <div className="price-days">
-                <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
-              </div>
-              <div className="days-persons">
-                <span>Per Person</span>
-                <h3>$500</h3>
-              </div>
-            </div>
-            <div className="calender-time">
-              <button>Book Now</button>
-            </div>
-          </div>
-          <div className="package-item">
-            <img src="/Images/packages/Fm.jpg" />
-            <div className="price-duration">
-              <div className="price-days">
-                <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
-              </div>
-              <div className="days-persons">
-                <span>Per Person</span>
-                <h3>$500</h3>
-              </div>
-            </div>
-            <div className="calender-time">
-              <button>Book Now</button>
-            </div>
-          </div>
-          <div className="package-item">
-            <img src="/Images/packages/Fm.jpg" />
-            <div className="price-duration">
-              <div className="price-days">
-                <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
-              </div>
-              <div className="days-persons">
-                <span>Per Person</span>
-                <h3>$500</h3>
-              </div>
-            </div>
-            <div className="calender-time">
-              <button>Book Now</button>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
