@@ -1,5 +1,7 @@
 import React from "react";
 import "./offers.css";
+import { CiCalendar } from "react-icons/ci";
+import { CiLocationOn } from "react-icons/ci";
 
 const Offers = () => {
   return (
@@ -15,12 +17,22 @@ const Offers = () => {
             <div className="price-duration">
               <div className="price-days">
                 <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
+                <div className="location-icon">
+                <CiLocationOn fontSize={20} />
+                <h1>Pakistan</h1>
+                <img src="/Images/packages/Pakistan.webp" alt="image" />
+                </div>
               </div>
               <div className="days-persons">
                 <span>Per Person</span>
                 <h3>$500</h3>
+                <div className="calender-icon">
+                  <CiCalendar fontSize={20} />
+                  8 Days
+                </div>
               </div>
             </div>
+
             <div className="calender-time">
               <button>Book Now</button>
             </div>

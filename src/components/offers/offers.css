@@ -1,5 +1,5 @@
 .packages-section {
-    padding: 10% 5%;
+    padding: 10% 5% 5% 5%;
 }
 
 .package-inner {
@@ -31,7 +31,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 64px;
 }
 
 
@@ -82,11 +82,34 @@
 }
 .calender-time button {
     padding: 10px;
-    width: 250px;
+    width: 240px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 17px;
     background: #03ABEA;
     border: 1px solid #03ABEA;
     color: #fff;
+}
+
+.calender-time button:hover {
+    background: none;
+    color: #03ABEA;
+    transition-duration: .3s linear;
+}
+
+.calender-icon, .location-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.location-icon h1 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.location-icon img {
+    width: 30px;
+    height: 20px;
 }

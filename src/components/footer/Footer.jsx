@@ -8,6 +8,7 @@ import { CiInstagram } from "react-icons/ci";
 import { PiYoutubeLogoThin } from "react-icons/pi";
 import { CiLinkedin } from "react-icons/ci";
 
+
 const Footer = () => {
   return (
     <>
