@@ -24,6 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .nav-logo-side img {
@@ -31,9 +32,19 @@
     width: 120px;
 }
 
+.nav-center-links {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-center-links ul {
     display: flex;
-    gap: 55px;
+    gap: 45px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
 }
 
 .nav-center-links ul li {
@@ -45,10 +56,23 @@
     text-align: left;
     letter-spacing: 1px;
     cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
  .nav-center-links ul li a {
     color: #000;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid transparent;
+ }
+
+ .nav-center-links ul li a:hover {
+    border-bottom: 5px solid #03ABEA;
+    color: #03ABEA;
  }
  
 .nav-book-button button {
