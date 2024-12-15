@@ -3,9 +3,49 @@
     align-items: center;
     justify-content: center;
     padding: 10% 0 5% 0;
+    text-align: center;
 }
 
 .transport-page-inner {
     /* background-color: green; */
     width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.transport-page-heading {
+    
+}
+
+.transport-grid-line {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.transport-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 22.4% !important;
+    border: 1px solid red;
+}
+
+.transport-boxes img {
+    width: 100%;
+    height: 280px;
+}
+
+.transport-details {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.transport-includes span {
+    display: flex;
+    gap: 10px;
 }
