@@ -11,10 +11,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 80px;
 }
 
 .transport-page-heading h2 {
+    text-align: center;
     font-size: 45px;
     font-weight: 600;
   }
@@ -38,7 +39,7 @@
     display: flex;
     flex-direction: column;
     width: 22.4% !important;
-    background-color: rgba(228, 227, 227, 0.37);
+    background-color: rgba(228, 227, 227, 0.221);
     border: 1px solid #03acea35;
     border-radius: 20px;
 }
@@ -47,7 +48,7 @@
     width: 100%;
     height: 280px;
     border-radius: 20px;
-    border-bottom: 1px solid rgba(184, 184, 184, 0.812);
+    border-bottom: 1px solid rgba(184, 184, 184, 0.448);
 }
 
 .transport-details {
@@ -65,12 +66,26 @@
 
 .daily-rates h4 {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .daily-rates h5 {
-    font-size: 20px;
+    font-size: 18px;
     color: #03abea;
+    font-weight: 600;
+}
+
+.vehicle-capacity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vehicle-capacity h4 {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .vehicle-including {
@@ -107,4 +122,46 @@
     border: 1px solid #03abea;
     background: transparent;
     color: #03abea;
+}
+
+.popup-content {
+    width: 40% !important;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 70%;
+}
+
+.popup-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.553);
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+    background-color: #03abea;
+    border-radius: 10px;
+}
+
+.popu-booking-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popup-close-botton button {
+    display: flex;
+    align-content: center !important;
+    justify-content: center;
+    gap: 5px;
+    background-color: #03abea;
+    border: 1px solid #03abea;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 20px;
 }
