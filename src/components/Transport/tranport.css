@@ -129,6 +129,7 @@
     padding: 10px;
     overflow-y: scroll;
     height: 70%;
+    border-radius: 10px;
 }
 
 .popup-content::-webkit-scrollbar {
@@ -148,12 +149,23 @@
 .popu-booking-form {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+    gap: 40px;
     padding: 20px;
     border-radius: 10px;
 }
 
+.close-button-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button-name .content {
+    font-size: 25px;
+    font-weight: 500;
+}
 .popup-close-botton button {
     display: flex;
     align-content: center !important;

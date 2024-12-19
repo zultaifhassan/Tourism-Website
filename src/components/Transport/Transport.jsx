@@ -6,6 +6,7 @@ import { MdAirlineSeatReclineNormal } from "react-icons/md";
 import { TfiClose } from "react-icons/tfi";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import VehicleBooking from "../Forms/VehicleBooking/VehicleBooking";
 
 const Transport = () => {
   return (
@@ -67,16 +68,18 @@ const Transport = () => {
                   </span>
                 </div>
               </div>
-              <Popup
-                trigger={<button>Book Now</button>}
-                modal
-                nested>
+              <Popup trigger={<button>Book Now</button>} modal nested>
                 {(close) => (
                   <div className="popu-booking-form">
-                    <div className="content">Book Transport You Want</div>
-                    <div className="popup-close-botton">
-                      <button onClick={() => close()}>Close <TfiClose /></button>
+                    <div className="close-button-name">
+                      <div className="content">Book Transport You Want</div>
+                      <div className="popup-close-botton">
+                        <button onClick={() => close()}>
+                          Close <TfiClose />
+                        </button>
+                      </div>
                     </div>
+                    <VehicleBooking />
                   </div>
                 )}
               </Popup>
