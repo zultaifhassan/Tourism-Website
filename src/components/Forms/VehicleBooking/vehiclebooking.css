@@ -2,7 +2,7 @@
 .vehicle-booking-form form {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .vehicle-booking-form form span {
@@ -10,34 +10,56 @@
     justify-content: space-between;
 }
 
-.vehicle-booking-form form span input, select {
-    padding: 13px 20px;
-    outline: none;
+.icon-users-name {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.399);
+    background-color: rgba(185, 184, 184, 0.103);
     width: 260px;
     border-radius: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.399);
-    background-color: rgba(168, 168, 168, 0.085);
-    font-size: 15px;
+    font-size:20px;
+    padding: 13px 15px;
+    cursor: pointer;
+    gap: 10px;
+    color: gray;
+}
+
+.vehicle-booking-form form span input, select {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    width: 100%;
+    color: gray;
+}
+
+#cars {
+    color: gray;
 }
 
 .vehicle-booking-form form span select {
     width: 300px;
 }
-.vehicle-booking-form form span select option {
-    width: 90%;
-    background-color: red;
-    margin-top: 20px;
-}
 
 .select-dates-from {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
 }
 
 .select-dates-from h1 {
     font-weight: 400;
     font-size: 18px;
+}
+
+.selected-date-duration {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.selected-date-duration p {
+    font-size: 15px;
 }
 
 .vehicle-booking-form button {
