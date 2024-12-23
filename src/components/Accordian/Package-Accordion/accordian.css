@@ -1,0 +1,24 @@
+
+
+.accordion-title {
+    background-color: rgba(226, 225, 225, 0.375);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+}
+
+.plus-minus {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-content {
+    padding: 0px 20px 20px 20px;
+    background-color: rgba(226, 225, 225, 0.375);
+    transition-duration: .5s ease-in-out;
+
+}
