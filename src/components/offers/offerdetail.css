@@ -5,3 +5,13 @@
 .offerpackage-detail-page h1 {
     font-weight: 600;
 }
+
+.offer-dropdown-calender {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.offer-dropdown-calender .accordian-drop {
+    width: 60%;
+}
