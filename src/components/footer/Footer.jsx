@@ -8,14 +8,13 @@ import { CiInstagram } from "react-icons/ci";
 import { PiYoutubeLogoThin } from "react-icons/pi";
 import { CiLinkedin } from "react-icons/ci";
 
-
 const Footer = () => {
   return (
     <>
       <div className="footer-outer">
         <div className="footer-inner">
           <div className="footer-logo">
-            <img src="/Images/logo.png"></img>
+            <img src="/Images/logo.png" alt="logo" />
             <p>
               "Travel with Karakoram Safari – where adventure meets serenity!
               Explore majestic peaks, vibrant cultures, and untouched wilderness
@@ -52,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="social-links">
-            <h2>Follow Us </h2>
+            <h2>Follow Us</h2>
             <div className="social-icons">
               <span>
                 <RiFacebookLine />
@@ -66,6 +65,10 @@ const Footer = () => {
               <span>
                 <CiLinkedin />
               </span>
+            </div>
+            <h2>Payment Method</h2>
+            <div className="Easy-paise-logo">
+              <img src="/Images/ep.png" alt="logo" />
             </div>
           </div>
         </div>

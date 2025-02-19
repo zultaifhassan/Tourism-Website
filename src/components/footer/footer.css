@@ -97,6 +97,11 @@
     cursor: pointer;
 }
 
+.Easy-paise-logo img {
+    height: 60px;
+    width: 60px;
+}
+
 .footer-copyright {
     display: flex;
     align-items: center;

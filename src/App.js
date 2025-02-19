@@ -9,6 +9,7 @@ import Contact from "./components/contact/Contact";
 import Blogs from "./components/blogs/Blogs";
 import Transport from "./components/Transport/Transport";
 import OffersDetail from "./components/offers/OffersDetail";
+import Rentcar from "./components/Transport/RentCar/Rentcar";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={<Blogs />}></Route>
         <Route path="/transport" element={<Transport />}></Route>
         <Route path="/offerdetail" element={<OffersDetail />}></Route>
+        <Route path="/rentcar" element={<Rentcar />}></Route>
       </Routes>
       <Footer />
     </div>

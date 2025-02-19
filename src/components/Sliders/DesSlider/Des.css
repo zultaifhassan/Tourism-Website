@@ -101,8 +101,7 @@
 
 .icon-address span {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: center;
   gap: 7px;
 }
 .icon-address span h2 {
@@ -111,8 +110,8 @@
 }
 
 .icon-address span h3 {
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: normal;
 }
 
 

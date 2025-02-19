@@ -41,7 +41,7 @@
 
 .nav-center-links ul {
     display: flex;
-    gap: 45px;
+    gap: 35px;
     height: 100%;
     align-content: center;
     justify-content: center;
@@ -50,7 +50,7 @@
 .nav-center-links ul li {
     list-style: none;
     font-family: Poppins;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 450;
     line-height: 27px;
     text-align: left;
@@ -68,6 +68,11 @@
     display: flex;
     align-items: center;
     border-bottom: 5px solid transparent;
+ }
+
+ .nav-center-links .active {
+    border-bottom: 5px solid #03ABEA;
+    color: #03ABEA;
  }
 
  .nav-center-links ul li a:hover {

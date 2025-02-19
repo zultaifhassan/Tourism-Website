@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,30 +13,60 @@ const Navbar = () => {
         <div className="nav-center-links">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/offers">Packages</Link>
+              <NavLink
+                to="/offers"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                Packages
+              </NavLink>
             </li>
             <li>
-              <Link to="/transport">Transport</Link>
+              <NavLink
+                to="/transport"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                Transport
+              </NavLink>
             </li>
             <li>
-              <Link to="/destination">Destination</Link>
+              <NavLink
+                to="/destination"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                Destination
+              </NavLink>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>  
+              <NavLink
+                to="/blog"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                Blog
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink
+                to="/about"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) => (isActive ? "active" : "")}>
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="nav-book-button">
-          <button>Book Now</button>
+          <Link to="/rentcar">
+            <button>Book Now</button>
+          </Link>
         </div>
       </div>
     </div>
