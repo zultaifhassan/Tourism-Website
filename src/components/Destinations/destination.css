@@ -37,3 +37,9 @@
     background-color: #fff;
     padding: 3px 15px;
 }
+
+.destinations-pictures p:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}

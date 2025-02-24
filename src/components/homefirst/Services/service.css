@@ -29,7 +29,9 @@
 
 .services-boxes {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
+  justify-content: center;
 }
 
 .service-box1 {
@@ -41,6 +43,7 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  width: 18.9%;
 }
 
 .service-box1:hover {
