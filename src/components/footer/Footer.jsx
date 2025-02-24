@@ -69,6 +69,7 @@ const Footer = () => {
             <h2>Payment Method</h2>
             <div className="Easy-paise-logo">
               <img src="/Images/ep.png" alt="logo" />
+              {/* <img src="/Images/binance.png" alt="logo" /> */}
             </div>
           </div>
         </div>

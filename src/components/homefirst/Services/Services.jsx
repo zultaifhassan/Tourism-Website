@@ -42,6 +42,14 @@ const Services = () => {
               sed laudantium nobis ad doloribus corporis adipisci
             </p>
           </div>
+          <div className="service-box1">
+            <img src="/Images/service/deer.png" alt="" />
+            <h2>Trophy Hunting</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              sed laudantium nobis ad doloribus corporis adipisci
+            </p>
+          </div>
         </div>
       </div>
     </div>

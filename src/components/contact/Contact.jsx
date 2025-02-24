@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact-form">
       <div className="contact-left">
-        <img src="/Images/logo.png" alt="" />
+        <img src="/Images/contact/2046.jpg" alt="" />
       </div>
       <div className="contact-right">
         <form>
@@ -26,10 +26,10 @@ const Contact = () => {
               </span>
             </div>
             <div className="first-box">
-              <label>Password</label>
+              <label>Message</label>
               <span>
                 <img src="/Images/contact/lock.png" alt="" />
-                <input type="text" placeholder="Enter Your Password" />
+                <input type="text" placeholder="Enter Your Message" />
               </span>
             </div>
           </div>
