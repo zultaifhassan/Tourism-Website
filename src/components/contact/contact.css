@@ -102,6 +102,11 @@
   padding: 15px;
 }
 
+.contact-info-email-location {
+  background-color: rgba(206, 190, 190, 0.497);
+  padding: 20px 0;
+}
+
 @media (max-width: 430px) {
   .img-hide {
     display: block;
