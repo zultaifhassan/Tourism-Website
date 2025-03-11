@@ -7,6 +7,7 @@ import { RiFacebookLine } from "react-icons/ri";
 import { CiInstagram } from "react-icons/ci";
 import { PiYoutubeLogoThin } from "react-icons/pi";
 import { CiLinkedin } from "react-icons/ci";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -42,29 +43,49 @@ const Footer = () => {
           <div className="footer-pages">
             <h2>Quick Links</h2>
             <div className="footer-pages-links">
-              <p>Home</p>
-              <p>About Us</p>
-              <p>Packages</p>
-              <p>Destinations</p>
-              <p>Blogs</p>
-              <p>Dashboarad</p>
+              <NavLink to="/">
+                <p>Home</p>
+              </NavLink>
+              <NavLink to="/about">
+                <p>About Us</p>
+              </NavLink>
+              <NavLink to="/offers">
+                <p>Packages</p>
+              </NavLink>
+              <NavLink to="/offers">
+                <p>Destinations</p>
+              </NavLink>
+              <NavLink to="/offers">
+                <p>Blog</p>
+              </NavLink>
+              <NavLink to="/offers">
+                <p>Dashboard</p>
+              </NavLink>
             </div>
           </div>
           <div className="social-links">
             <h2>Follow Us</h2>
             <div className="social-icons">
-              <span>
-                <RiFacebookLine />
-              </span>
-              <span>
-                <CiInstagram />
-              </span>
-              <span>
-                <PiYoutubeLogoThin />
-              </span>
-              <span>
-                <CiLinkedin />
-              </span>
+              <NavLink>
+                <span>
+                  <RiFacebookLine />
+                </span>
+              </NavLink>
+              <NavLink>
+                <span>
+                  <CiInstagram />
+                </span>
+              </NavLink>
+              <NavLink>
+                <span>
+                  <PiYoutubeLogoThin />
+                </span>
+              </NavLink>
+              <NavLink>
+                <span>
+                  <CiLinkedin />
+                </span>
+              </NavLink>
             </div>
             <h2>Payment Method</h2>
             <div className="Easy-paise-logo">

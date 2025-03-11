@@ -1,7 +1,8 @@
 .footer-outer {
-    background-color: rgba(220, 220, 220, 0.471);
+    background-color: #111827;
     display: flex;
     align-content: center;
+    color: #9CA3AF;
     justify-content: center;
 }
 
@@ -35,6 +36,7 @@
 .footer-address h2 {
     font-size: 24px;
     font-weight: 600;
+    color: #fff;
 }
 
 .address-links {
@@ -63,6 +65,7 @@
 .footer-pages h2 {
     font-size: 24px;
     font-weight: 600;
+    color: #fff;
 }
 
 .footer-pages-links {
@@ -72,15 +75,29 @@
     flex-direction: column;
 }
 
+.footer-pages-links a {
+    color: #9CA3AF;
+}
+
+.footer-pages-links a:hover {
+    color: #fff;
+}
+
 .social-links {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.social-links a {
+    color: #9CA3AF;
+}
+
 .social-links h2 {
     font-size: 24px;
     font-weight: 600;
+    color: #fff;
+
 }
 
 .social-icons {
@@ -95,6 +112,11 @@
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.social-icons span:hover {
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 .Easy-paise-logo {
