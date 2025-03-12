@@ -26,12 +26,14 @@
 
 .about-us-innerdiv span h1 {
     letter-spacing: .7px;
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: 600;
 }
 
 .about-us-innerdiv span p {
-    line-height: 28px;
+    line-height: 1.6;
     letter-spacing: .6px;
+    font-size: 17px;
 }
 
 .counter-clients {
@@ -39,6 +41,7 @@
     width: 90%;
     margin: auto;
     padding: 100px 0;
+    gap: 50px;
 }
 
 .counter-leftside-image {
@@ -54,7 +57,6 @@
 
 .counter-rightside-count {
     width: 50%;
-    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -66,13 +68,26 @@
     gap: 50px;
 }
 
+.counter-rightside-count p {
+    letter-spacing: .5px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.counter-rightside-count h1 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
 .counter-destination-clients span {
     margin-top: 20px;
     border-left: 1px solid gray;
-    padding: 0px 15px;
+    padding: 0px 20px;
+    /* border: 1px solid red; */
 }
 
 .counter-destination-clients span h2 {
     color: #03ABEA;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 600;
 }

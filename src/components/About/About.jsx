@@ -18,7 +18,7 @@ const About = () => {
       </div>
       <div className="counter-clients">
         <div className="counter-leftside-image">
-          <img src="/Images/Destination/de.jpg" alt="" />
+          <img src="/Images/Destination/female.jpg" alt="" />
         </div>
         <div className="counter-rightside-count">
           <h1>Who We Are</h1>
@@ -29,19 +29,29 @@ const About = () => {
             most captivating destinations.
           </p>
           <div className="counter-destination-clients">
-              <span>
-                <h2>5+</h2>
-                <p>Years Experience</p>
-              </span>
-              <span>
-                <h2>5k+</h2>
-                <p>Happy Clients</p>
-              </span>
-              <span>
-                <h2>100+</h2>
-                <p>Destinations</p>
-              </span>
+            <span>
+              <h2>5+</h2>
+              <p>Years Experience</p>
+            </span>
+            <span>
+              <h2>5k+</h2>
+              <p>Happy Clients</p>
+            </span>
+            <span>
+              <h2>100+</h2>
+              <p>Destinations</p>
+            </span>
           </div>
+        </div>
+      </div>
+      <div className="team-section">
+        <h1>Meet Our Team</h1>
+        <p>
+          Our experienced team of travel experts is dedicated to making your
+          journey unforgettable.
+        </p>
+        <div className="team-member-boxes">
+
         </div>
       </div>
     </div>
