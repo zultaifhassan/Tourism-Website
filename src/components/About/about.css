@@ -1,0 +1,78 @@
+
+
+.about-us-outerdiv {
+    background-image: url('../../../public/Images/Destination/about.jpg');
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us-innerdiv {
+    background-color: #00000092;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.about-us-innerdiv span {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-us-innerdiv span h1 {
+    letter-spacing: .7px;
+    font-size: 40px;
+}
+
+.about-us-innerdiv span p {
+    line-height: 28px;
+    letter-spacing: .6px;
+}
+
+.counter-clients {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.counter-leftside-image {
+    width: 50%;
+    height: 50vh;
+}
+
+.counter-leftside-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.counter-rightside-count {
+    width: 50%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.counter-destination-clients {
+    display: flex;
+    gap: 50px;
+}
+
+.counter-destination-clients span {
+    margin-top: 20px;
+    border-left: 1px solid gray;
+    padding: 0px 15px;
+}
+
+.counter-destination-clients span h2 {
+    color: #03ABEA;
+    font-size: 25px;
+}
