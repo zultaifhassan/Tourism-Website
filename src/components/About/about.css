@@ -91,3 +91,54 @@
     font-size: 35px;
     font-weight: 600;
 }
+
+.team-section {
+    background-color: rgba(246, 246, 246, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.team-member-boxes {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.team-box-1 {
+    background-color: #fff;
+    width: 30%;
+}
+
+.team-box-1 img {
+    width: 100%;
+}
+
+.team-member-detail {
+    padding: 20px;
+}
+
+.team-member-detail h2 {
+    color: #1F2937;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.team-member-detail p {
+    color: #2563EB;
+}
+
+
+.desigination-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.team-member-sociallinks {
+    display: flex;
+    gap: 20px;
+}
+

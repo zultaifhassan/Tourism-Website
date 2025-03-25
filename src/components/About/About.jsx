@@ -1,5 +1,9 @@
 import React from "react";
 import "./about.css";
+import { FiFacebook } from "react-icons/fi";
+import { BsInstagram } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
+import { GrLinkedin } from "react-icons/gr";
 
 const About = () => {
   return (
@@ -51,7 +55,21 @@ const About = () => {
           journey unforgettable.
         </p>
         <div className="team-member-boxes">
-
+          <div className="team-box-1">
+            <img src="/Images/about/men.jpg" alt="" />
+            <div className="team-member-detail">
+              <h2>Zultaif Hassan</h2>
+              <div className="desigination-social">
+                <p>CEO & Founder</p>
+                <div className="team-member-sociallinks">
+                  <FiFacebook fontSize={25} color="#0862F7" />
+                  <BsInstagram fontSize={25} color="purple" />
+                  <BsTwitterX fontSize={25} color="black" />
+                  <GrLinkedin fontSize={25} color="#0C61BF" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
