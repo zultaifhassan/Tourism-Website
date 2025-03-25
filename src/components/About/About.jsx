@@ -4,6 +4,10 @@ import { FiFacebook } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { GrLinkedin } from "react-icons/gr";
+import { FaHeart } from "react-icons/fa";
+import { AiFillSafetyCertificate } from "react-icons/ai";
+import { FaStar } from "react-icons/fa";
+import { FaGlobeAmericas } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -51,8 +55,8 @@ const About = () => {
       <div className="team-section">
         <h1>Meet Our Team</h1>
         <p>
-          Our experienced team of travel experts is dedicated to making your
-          journey unforgettable.
+          Our experienced team of travel experts is dedicated to making
+          <br /> your journey unforgettable.
         </p>
         <div className="team-member-boxes">
           <div className="team-box-1">
@@ -62,15 +66,74 @@ const About = () => {
               <div className="desigination-social">
                 <p>CEO & Founder</p>
                 <div className="team-member-sociallinks">
-                  <FiFacebook fontSize={25} color="#0862F7" />
-                  <BsInstagram fontSize={25} color="purple" />
-                  <BsTwitterX fontSize={25} color="black" />
-                  <GrLinkedin fontSize={25} color="#0C61BF" />
+                  <FiFacebook fontSize={25} color="#0862F7" cursor="pointer" />
+                  <BsInstagram fontSize={25} color="purple" cursor="pointer" />
+                  <BsTwitterX fontSize={25} color="black" cursor="pointer" />
+                  <GrLinkedin fontSize={25} color="#0C61BF" cursor="pointer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="team-box-1">
+            <img src="/Images/about/men.jpg" alt="" />
+            <div className="team-member-detail">
+              <h2>Zultaif Hassan</h2>
+              <div className="desigination-social">
+                <p>CEO & Founder</p>
+                <div className="team-member-sociallinks">
+                  <FiFacebook fontSize={25} color="#0862F7" cursor="pointer" />
+                  <BsInstagram fontSize={25} color="purple" cursor="pointer" />
+                  <BsTwitterX fontSize={25} color="black" cursor="pointer" />
+                  <GrLinkedin fontSize={25} color="#0C61BF" cursor="pointer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="team-box-1">
+            <img src="/Images/about/men.jpg" alt="" />
+            <div className="team-member-detail">
+              <h2>Sohail Abbas</h2>
+              <div className="desigination-social">
+                <p>Graphic Designer</p>
+                <div className="team-member-sociallinks">
+                  <FiFacebook fontSize={25} color="#0862F7" cursor="pointer" />
+                  <BsInstagram fontSize={25} color="purple" cursor="pointer" />
+                  <BsTwitterX fontSize={25} color="black" cursor="pointer" />
+                  <GrLinkedin fontSize={25} color="#0C61BF" cursor="pointer" />
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="Values-section">
+        <h1>Our Values</h1>
+        <span>
+          <div className="passion-box">
+            <span>
+              <FaHeart fontSize={50} color="blue" />
+            </span>
+            <h2>Passion</h2>
+          </div>
+          <div className="passion-box">
+            <span>
+              <AiFillSafetyCertificate fontSize={50} color="blue" />
+            </span>
+            <h2>Trust</h2>
+          </div>
+          <div className="passion-box">
+            <span>
+              <FaStar fontSize={50} color="blue" />
+            </span>
+            <h2>Excellence</h2>
+          </div>
+          <div className="passion-box">
+            <span>
+              <FaGlobeAmericas fontSize={50} color="blue" />
+            </span>
+            <h2>Sustainability</h2>
+          </div>
+        </span>
       </div>
     </div>
   );

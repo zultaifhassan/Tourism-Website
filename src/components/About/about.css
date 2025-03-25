@@ -93,22 +93,34 @@
 }
 
 .team-section {
-    background-color: rgba(246, 246, 246, 0.89);
+    background-color: rgba(246, 246, 246, 0.955);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 0;
+    padding: 100px 0;
+}
+
+.team-section h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.team-section p {
+    font-size: 20px;
+    text-align: center;
 }
 
 .team-member-boxes {
     width: 90%;
-    margin-top: 50px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .team-box-1 {
     background-color: #fff;
-    width: 30%;
+    width: 31%;
 }
 
 .team-box-1 img {
@@ -119,14 +131,16 @@
     padding: 20px;
 }
 
+
 .team-member-detail h2 {
     color: #1F2937;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 28px;
 }
 
 .team-member-detail p {
     color: #2563EB;
+    font-size: 18px;
 }
 
 
@@ -142,3 +156,47 @@
     gap: 20px;
 }
 
+.Values-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.Values-section h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.Values-section span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.passion-box {
+    width: 25%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.passion-box span {
+    background-color: rgba(203, 198, 198, 0.395);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.passion-box h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
