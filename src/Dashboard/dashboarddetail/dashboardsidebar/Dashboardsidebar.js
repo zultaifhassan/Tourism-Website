@@ -1,20 +1,52 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./dashboardsidebar.css";
+import { RxDashboard } from "react-icons/rx";
+import { IoBagHandleOutline } from "react-icons/io5";
+import { VscPackage } from "react-icons/vsc";
+import { LiaTruckSolid } from "react-icons/lia";
+import { GoCodeReview } from "react-icons/go";
 
 const Dashboardsidebar = () => {
   return (
-    <div className='dash-side-bar'>
-      <div className='dash-logo'>
-        <img src='/Images/logo.png'></img>
+    <div className="dash-side-bar">
+      <div className="dash-logo">
+        <img src="/Images/logo.png" alt="img"></img>
       </div>
+      <div className="dashboard-links">
         <Link to="dash-detail">
-            <h1 color='red'>click</h1>
+          <span>
+            <RxDashboard />
+            Dashboards
+          </span>
         </Link>
         <Link to="orders">
-            <h1 color='red'>click</h1>
+          <span>
+            <IoBagHandleOutline />
+            Orders
+          </span>
         </Link>
+        <Link to="orders">
+          <span>
+            <VscPackage />
+            Packages
+          </span>
+        </Link>
+        <Link to="orders">
+          <span>
+            <LiaTruckSolid />
+            Transports
+          </span>
+        </Link>
+        <Link to="orders">
+          <span>
+            <GoCodeReview />
+            Customer Reviews
+          </span>
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboardsidebar
+export default Dashboardsidebar;
