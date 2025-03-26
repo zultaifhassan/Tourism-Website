@@ -1,7 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
 import Homefirst from "./components/homefirst/Homefirst";
-import Navbar from "./components/navbar/Navbar";
 import About from "./components/About/About";
 import Destination from "./components/Destinations/Destination";
 import Offers from "./components/offers/Offers";
@@ -18,7 +16,6 @@ import Orders from "./Dashboard/dashboarddetail/orders/Orders";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Homelayout />}>
           <Route path="" element={<Homefirst />}></Route>
@@ -32,11 +29,10 @@ function App() {
           <Route path="rentcar" element={<Rentcar />}></Route>
         </Route>
         <Route path="/dashboard" element={<Dashboardlayout />}>
-          <Route path="dash-detail" element={<Dashboarddetail />}></Route>
+          <Route path="" element={<Dashboarddetail />}></Route>
           <Route path="orders" element={<Orders />}></Route>
         </Route>
       </Routes>
-      {/* <Footer /> */}
     </div>
   );
 }

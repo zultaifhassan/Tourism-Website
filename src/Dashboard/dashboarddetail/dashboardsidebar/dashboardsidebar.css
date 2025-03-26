@@ -1,6 +1,6 @@
 
 .dash-side-bar {
-    background-color: rgb(244, 245, 244);
+    background-color: #fff;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
 .dashboard-links a {
     color: gray;
     /* background-color: blue; */
-    height: 60px;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;

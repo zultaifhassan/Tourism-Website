@@ -10,6 +10,9 @@ const Dashboardlayout = () => {
             <Dashboardsidebar />
         </div>
         <div className='layout-rightside'>
+          <div className='layout-topbar'>
+            topbar
+          </div>
             <Outlet />
         </div>
     </div>

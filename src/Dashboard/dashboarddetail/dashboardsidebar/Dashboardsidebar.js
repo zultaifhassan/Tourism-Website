@@ -14,7 +14,7 @@ const Dashboardsidebar = () => {
         <img src="/Images/logo.png" alt="img"></img>
       </div>
       <div className="dashboard-links">
-        <Link to="dash-detail">
+        <Link to="">
           <span>
             <RxDashboard />
             Dashboards

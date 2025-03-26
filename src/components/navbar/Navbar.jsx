@@ -64,7 +64,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-book-button">
-          <Link to="/rentcar">
+          <Link to="transport">
             <button>Book Now</button>
           </Link>
         </div>

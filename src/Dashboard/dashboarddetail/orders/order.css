@@ -1,0 +1,48 @@
+.order-details-outer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.order-details-outer h1 {
+    font-weight: 600;
+}
+
+.order-table tr {
+  background-color: #fff;
+  width: 100%;
+}
+
+.order-table th {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.54);
+  padding: 10px 0px 10px 10px;
+  width: 150px;
+  text-align: left;
+  color: #9b9b9b;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.order-table td {
+    padding: 20px 0px 20px 10px;
+    font-size: 14px;
+}
+
+.status-news span {
+    border: 1px solid orange;
+    padding: 5px;
+    color: orange;
+    border-radius: 5px;
+}
+
+.action-icons-editdel {
+    display: flex;
+    gap: 20px;
+}
+
+.action-icons-editdel img {
+    cursor: pointer;
+}
+
+
