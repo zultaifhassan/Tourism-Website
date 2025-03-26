@@ -58,7 +58,7 @@ const Footer = () => {
               <NavLink to="/offers">
                 <p>Blog</p>
               </NavLink>
-              <NavLink to="/offers">
+              <NavLink to="/dashboard">
                 <p>Dashboard</p>
               </NavLink>
             </div>

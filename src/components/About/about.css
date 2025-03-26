@@ -181,13 +181,13 @@
     width: 25%; 
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
+    padding: 10px 20px;
+    text-align: center;
 }
 .passion-box span {
-    background-color: rgba(203, 198, 198, 0.395);
+    background-color: rgba(203, 198, 198, 0.423);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,6 +197,10 @@
 }
 
 .passion-box h2 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
+}
+
+.passion-box p {
+    font-size: 15px;
 }

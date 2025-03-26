@@ -31,12 +31,14 @@
 
 .subscribe-input .input-icon {
     display: flex;
-    padding: 24px;
+    padding: 15px 20px;
     background-color: #fff;
     border-radius: 10px;
     gap: 15px;
     box-shadow: 2px 0px 7px rgba(0,0,0,0.2);
     width: 300px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -47,7 +49,7 @@
 }
 
 .subscribe-input button {
-    padding: 25px 50px;
+    padding: 15px 50px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;

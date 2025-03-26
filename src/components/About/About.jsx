@@ -114,24 +114,40 @@ const About = () => {
               <FaHeart fontSize={50} color="blue" />
             </span>
             <h2>Passion</h2>
+            <p>
+              Passion for adventure, exploration, nature, and unforgettable
+              experiences.
+            </p>
           </div>
           <div className="passion-box">
             <span>
               <AiFillSafetyCertificate fontSize={50} color="blue" />
             </span>
             <h2>Trust</h2>
+            <p>
+              Committed to trust, safety, reliability, authenticity, and
+              exceptional travel experiences
+            </p>
           </div>
           <div className="passion-box">
             <span>
               <FaStar fontSize={50} color="blue" />
             </span>
             <h2>Excellence</h2>
+            <p>
+              Dedicated to excellence, quality, innovation, customer
+              satisfaction, and unforgettable adventures.
+            </p>
           </div>
           <div className="passion-box">
             <span>
               <FaGlobeAmericas fontSize={50} color="blue" />
             </span>
             <h2>Sustainability</h2>
+            <p>
+              Promoting sustainability through eco-friendly tourism,
+              conservation, responsible travel, and environmental awareness.
+            </p>
           </div>
         </span>
       </div>

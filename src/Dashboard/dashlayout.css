@@ -1,0 +1,13 @@
+
+.layout-main {
+    background-color: rgb(239, 238, 238);
+    display: flex;
+}
+
+.layout-leftside {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}

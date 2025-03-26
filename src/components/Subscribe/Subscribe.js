@@ -1,5 +1,6 @@
 import React from "react";
 import "./subscribe.css";
+import { IoMailOutline } from "react-icons/io5";
 
 const Subscribe = () => {
   return (
@@ -10,7 +11,7 @@ const Subscribe = () => {
       </h2>
       <div className="subscribe-input">
         <div className="input-icon">
-            <img src="/Images/home/mail.png" alt="" />
+          <IoMailOutline fontSize={30} />
           <input type="email" placeholder="Enter your email" />
         </div>
         <button>Subscribe</button>
