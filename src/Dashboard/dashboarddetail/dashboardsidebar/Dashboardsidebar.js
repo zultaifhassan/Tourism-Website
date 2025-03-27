@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./dashboardsidebar.css";
 import { RxDashboard } from "react-icons/rx";
 import { IoBagHandleOutline } from "react-icons/io5";
@@ -14,36 +14,36 @@ const Dashboardsidebar = () => {
         <img src="/Images/logo.png" alt="img"></img>
       </div>
       <div className="dashboard-links">
-        <Link to="">
+        <NavLink to="d" className={({ isActive }) => (isActive ? "active-link" : "")}>
           <span>
             <RxDashboard />
             Dashboards
           </span>
-        </Link>
-        <Link to="orders">
+        </NavLink>
+        <NavLink to="orders" className={({ isActive }) => (isActive ? "active-link" : "")}>
           <span>
             <IoBagHandleOutline />
             Orders
           </span>
-        </Link>
-        <Link to="orders">
+        </NavLink>
+        <NavLink to="Packages" className={({ isActive }) => (isActive ? "active-link" : "")}>
           <span>
             <VscPackage />
             Packages
           </span>
-        </Link>
-        <Link to="orders">
+        </NavLink>
+        <NavLink to="transport" className={({ isActive }) => (isActive ? "active-link" : "")}>
           <span>
             <LiaTruckSolid />
             Transports
           </span>
-        </Link>
-        <Link to="orders">
+        </NavLink>
+        <NavLink to="review" className={({ isActive }) => (isActive ? "active-link" : "")}>
           <span>
             <GoCodeReview />
             Customer Reviews
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

@@ -2,6 +2,8 @@
 .layout-main {
     background-color: rgb(239, 238, 238);
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .layout-leftside {
@@ -13,7 +15,7 @@
 }
 
 .layout-rightside {
-    width: 80%;
+    width: 80%
 }
 .layout-topbar {
     background-color: #fff;

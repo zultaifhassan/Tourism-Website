@@ -12,6 +12,9 @@ import Dashboardlayout from "./Dashboard/Dashboardlayout";
 import Dashboarddetail from "./Dashboard/dashboarddetail/Dashboarddetail";
 import Homelayout from "./components/homefirst/Homelayout";
 import Orders from "./Dashboard/dashboarddetail/orders/Orders";
+import Addtransport from "./Dashboard/dashboarddetail/transport/Addtransport";
+import Addpackages from "./Dashboard/dashboarddetail/packages/Addpackages";
+import Customerreview from "./Dashboard/dashboarddetail/customerreview/Customerreview";
 
 function App() {
   return (
@@ -29,8 +32,11 @@ function App() {
           <Route path="rentcar" element={<Rentcar />}></Route>
         </Route>
         <Route path="/dashboard" element={<Dashboardlayout />}>
-          <Route path="" element={<Dashboarddetail />}></Route>
+          <Route path="d" element={<Dashboarddetail />}></Route>
           <Route path="orders" element={<Orders />}></Route>
+          <Route path="transport" element={<Addtransport />}></Route>
+          <Route path="packages" element={<Addpackages />}></Route>
+          <Route path="review" element={<Customerreview />}></Route>
         </Route>
       </Routes>
     </div>

@@ -9,6 +9,25 @@
   font-weight: 600;
 }
 
+.orders-tabs-list {
+  display: flex;
+}
+
+.orders-tabs-list button {
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+.orders-tabs-list .active {
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+}
+
 .order-table {
   width: 100%;
 }
@@ -33,6 +52,11 @@
   font-size: 14px;
   margin-bottom: 10px;
   background-color: #fff;
+  border-bottom: 5px solid #EFEEEE;
+}
+
+.order-table td a {
+  color: blue;
 }
 
 .status-news span {
@@ -40,13 +64,11 @@
   padding: 3px;
   color: orange;
   border-radius: 5px;
-}
-
-.action-icons-editdel {
+  font-size: 13px;
 }
 
 .action-icons-editdel img {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .name-attribute {
@@ -79,4 +101,21 @@
 
 .action-attribute {
   width: 100px;
+}
+
+.delete-popup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0909097d;
+}
+
+.popup-delete-confirmation {
+  background-color: #fff;
+  padding: 30px;
 }

@@ -1,0 +1,25 @@
+.packages-tables-outer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.packages-tables-outer h1 {
+  font-weight: 600;
+}
+
+.pacakes-tab-list button {
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+.pacakes-tab-list .active {
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+}
