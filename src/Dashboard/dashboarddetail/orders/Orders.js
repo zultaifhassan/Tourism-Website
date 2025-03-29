@@ -7,12 +7,7 @@ import { TfiClose } from "react-icons/tfi";
 
 const Orders = () => {
   const [activeTab, setActiveTab] = useState("Transport Orders");
-  const [isOpen, setIsOpen] = useState(false);
-  const [isClose, setIsClose] = useState(false)
 
-  const handleClose = () => {
-    return isClose(true)
-  }
   return (
     <div className="order-details-outer">
       <h1>Orders List</h1>
@@ -61,10 +56,34 @@ const Orders = () => {
             <td>Bunji House Near Post Office</td>
             <td className="action-icons-editdel">
               <img src="/Images/dashboard/edit.png" alt="img" />
-              <img
-                src="/Images/dashboard/delete.png"
-                alt="img"
-                onClick={() => setIsOpen(true)}></img>
+              <Popup
+                trigger={
+                  <img src="/Images/dashboard/delete.png" alt="img"></img>
+                }
+                modal
+                nested
+                className="delete-popup-content">
+                {(close) => (
+                  <div className="close-delete-name">
+                    <h2>Do yau Want to Delete</h2>
+                    <div className="popup-delete-botton">
+                      <span>
+                        <TfiClose
+                          fontSize={30}
+                          color="green"
+                          cursor="Pointer"
+                          onClick={() => close()}
+                        />
+                        <p>Cancel</p>
+                      </span>
+                      <span>
+                        <img src="/Images/dashboard/delete.png" alt="img"></img>
+                        <p>Delete</p>
+                      </span>
+                    </div>
+                  </div>
+                )}
+              </Popup>
             </td>
           </tr>
           <tr>
@@ -84,20 +103,6 @@ const Orders = () => {
               <img src="/Images/dashboard/delete.png" alt="img"></img>
             </td>
           </tr>
-        </div>
-      )}
-      {isOpen && (
-        <div className="delete-popup">
-          <div className="popup-delete-confirmation">
-            <h2>Do you want to Delete</h2>
-            <TfiClose
-              fontSize={25}
-              color="red"
-              cursor="Pointer"
-              onClick={() => setIsClose(handleClose)}
-            />
-            <img src="/Images/dashboard/delete.png" alt="img"></img>
-          </div>
         </div>
       )}
       {activeTab === "Package Orders" && <div>🛒 Orders Content</div>}

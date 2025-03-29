@@ -157,7 +157,7 @@ const Transport = () => {
             </div>
             <div className="transport-details">
               <h2>Prado</h2>
-              
+
               <div className="vehicle-capacity">
                 <h4>
                   <MdAirlineSeatReclineNormal fontSize={25} color="green" />
@@ -194,7 +194,6 @@ const Transport = () => {
                     <h4>Driver</h4>
                   </span>
                 </div>
-                
               </div>
               <div className="daily-rates">
                 <h4>Per Day</h4>

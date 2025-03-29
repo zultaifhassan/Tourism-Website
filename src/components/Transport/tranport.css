@@ -136,6 +136,7 @@
     color: #03abea;
 }
 
+
 .popup-content {
     width: 40% !important;
     overflow-y: scroll;
@@ -167,7 +168,7 @@
 }
 
 .close-button-name {
-    width: 100%;
+    width: 100% !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
