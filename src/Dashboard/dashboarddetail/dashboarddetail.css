@@ -1,0 +1,14 @@
+
+.dashborad-main-page {
+    padding: 30px;
+}
+.dashboard-wellcomenote {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.dashboard-wellcomenote h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
