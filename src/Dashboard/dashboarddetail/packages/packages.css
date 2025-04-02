@@ -23,3 +23,61 @@
   background-color: #fff;
   border-bottom: 2px solid #000;
 }
+
+
+
+
+.packages-list-table {
+  width: 100%;
+}
+
+.packages-list-table tr {
+  width: 100%;
+}
+
+
+.packages-list-table th {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.54);
+  padding: 10px 30px 10px 20px;
+  /* width: 150px; */
+  text-align: left;
+  color: #9b9b9b;
+  font-size: 15px;
+  background-color: #fff;
+  font-weight: normal;
+}
+.packages-list-table td {
+  /* padding: 20px 30px 20px 20px; */
+  font-size: 14px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-bottom: 5px solid #EFEEEE;
+  text-align: start;
+}
+
+.packages-list-table td span {
+  display: flex;
+  background-color: red;
+  height: 100% !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.packages-list-table tr td img {
+  width: 50px;
+  height: 40px;
+}
+
+
+.package-list-price {
+  width: 100px;
+}
+
+.pacakge-list-action {
+  width: 120px;
+}
+
+.package-list-detele-edit img {
+  width: 28px !important;
+  height: 28px !important;
+}

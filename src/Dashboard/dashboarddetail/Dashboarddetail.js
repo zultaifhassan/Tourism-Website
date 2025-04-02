@@ -1,7 +1,9 @@
 import React from "react";
 import "./dashboarddetail.css";
-import { HiOutlineCurrencyDollar } from "react-icons/hi2";
-import { LuCalendarCheck } from "react-icons/lu";
+import { AiFillDollarCircle } from "react-icons/ai";
+import { LuCalendarCheck2 } from "react-icons/lu";
+import { HiUsers } from "react-icons/hi";
+import { TbBus } from "react-icons/tb";
 
 const Dashboarddetail = () => {
   return (
@@ -18,7 +20,7 @@ const Dashboarddetail = () => {
             <p>Total Earnings</p>
           </div>
           <div className="earning-logo">
-            <HiOutlineCurrencyDollar />
+            <AiFillDollarCircle />
           </div>
         </div>
         <div className="dashboard-detail-box1">
@@ -27,25 +29,25 @@ const Dashboarddetail = () => {
             <p>Total Bookings</p>
           </div>
           <div className="earning-logo">
-            <LuCalendarCheck />
+            <LuCalendarCheck2 />
           </div>
         </div>
         <div className="dashboard-detail-box1">
           <div className="total-earning-section">
             <h1>200k</h1>
-            <p>Total Earnings</p>
+            <p>Total Clients</p>
           </div>
           <div className="earning-logo">
-            <HiOutlineCurrencyDollar />
+            <HiUsers />
           </div>
         </div>
         <div className="dashboard-detail-box1">
           <div className="total-earning-section">
             <h1>200k</h1>
-            <p>Total Earnings</p>
+            <p>Total Vehicles</p>
           </div>
           <div className="earning-logo">
-            <HiOutlineCurrencyDollar />
+            <TbBus />
           </div>
         </div>
       </div>
