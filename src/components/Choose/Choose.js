@@ -19,7 +19,7 @@ const Choose = () => {
         <div className="choose-boxes-list">
           <div className="choose-box1">
             <span>
-              <FaMedal fontSize={50} color="blue" />
+              <FaMedal fontSize={50} color="#03ABEA" />
             </span>
             <h2>Best Price Guarantee</h2>
             <p>
@@ -29,7 +29,7 @@ const Choose = () => {
           </div>
           <div className="choose-box1">
             <span>
-              <MdHeadsetMic fontSize={50} color="blue" />
+              <MdHeadsetMic fontSize={50} color="#03ABEA" />
             </span>
             <h2>24-7 Support</h2>
             <p>
@@ -39,7 +39,7 @@ const Choose = () => {
           </div>
           <div className="choose-box1">
             <span>
-              <AiFillSafetyCertificate fontSize={50} color="blue" />
+              <AiFillSafetyCertificate fontSize={50} color="#03ABEA" />
             </span>
             <h2>Safe Booking</h2>
             <p>
@@ -49,7 +49,7 @@ const Choose = () => {
           </div>
           <div className="choose-box1">
             <span>
-              <FaHeart fontSize={50} color="blue" />
+              <FaHeart fontSize={50} color="#03ABEA" />
             </span>
             <h2>Trusted by Millions</h2>
             <p>

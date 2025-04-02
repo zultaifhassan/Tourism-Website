@@ -1,6 +1,9 @@
 
 .dashborad-main-page {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .dashboard-wellcomenote {
     background-color: #fff;
@@ -11,4 +14,31 @@
 .dashboard-wellcomenote h2 {
     font-size: 35px;
     font-weight: 500;
+}
+
+.dashboard-wellcomenote h2 span {
+    color: #02AAEC;
+    font-weight: 600;
+}
+
+.dashborad-detail-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-detail-box1 {
+    display: flex;
+    align-items: center;
+    padding: 45px;
+    background-color: #fff;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.earning-logo {
+    font-size: 70px;
+    display: flex;
+    color: #02AAEC;
+    background-color: red;
 }
