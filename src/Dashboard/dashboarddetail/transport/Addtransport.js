@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import './addtransport.css'
+import "./addtransport.css";
 
 const Addtransport = () => {
-   const [activeTab, setActiveTab] = useState("Manage Transport");
+  const [activeTab, setActiveTab] = useState("Manage Transport");
   return (
     <div className="transport-list-outer">
       <h1>Transport Details</h1>
@@ -21,38 +21,48 @@ const Addtransport = () => {
 
       {activeTab === "Manage Transport" && (
         <div className="transport-list-boxes">
-            <div className="transport-list-box">
-                <img src="/Images/Transport/jeep.jpg" alt="img"></img>
-                <span>
-                  <h2>$ 2000</h2>
-                  <button>Read More</button>
-                </span>
-            </div>
-            <div className="transport-list-box">
-                <img src="/Images/Transport/jeep.jpg" alt="img"></img>
-                <span>
-                  <h2>$ 2000</h2>
-                  <button>Read More</button>
-                </span>
-            </div>
-            <div className="transport-list-box">
-                <img src="/Images/Transport/jeep.jpg" alt="img"></img>
-                <span>
-                  <h2>$ 2000</h2>
-                  <button>Read More</button>
-                </span>
-            </div>
-            <div className="transport-list-box">
-                <img src="/Images/Transport/jeep.jpg" alt="img"></img>
-                <span>
-                  <h2>$ 2000</h2>
-                  <button>Read More</button>
-                </span>
-            </div>
+          <div className="transport-list-box">
+            <img src="/Images/Transport/jeep.jpg" alt="img"></img>
+            <span>
+              <h2>Prado 2025</h2>
+              <button>View Details</button>
+            </span>
+          </div>
+          <div className="transport-list-box">
+            <img src="/Images/Transport/jeep.jpg" alt="img"></img>
+            <span>
+              <h2>Jeep 4x4</h2>
+              <button>View Detail</button>
+            </span>
+          </div>
+          <div className="transport-list-box">
+            <img src="/Images/Transport/jeep.jpg" alt="img"></img>
+            <span>
+              <h2>Prado V8</h2>
+              <button>View Detail</button>
+            </span>
+          </div>
+          <div className="transport-list-box">
+            <img src="/Images/Transport/jeep.jpg" alt="img"></img>
+            <span>
+              <h2>Gli X 2021</h2>
+              <button>View Detail</button>
+            </span>
+          </div>
         </div>
       )}
       {activeTab === "Add Transport" && (
-        <div>Add Transport</div>
+        <div className="transport-adding-form">
+          <div className="add-form-side">
+            <form>
+              
+            </form>
+          </div>
+          <div className="add-form-image">
+            <img src="/images/Transport/car.webp" alt="img"></img>
+            <img src="/images/Transport/64419.jpg" alt="img"></img>
+          </div>
+        </div>
       )}
     </div>
   );

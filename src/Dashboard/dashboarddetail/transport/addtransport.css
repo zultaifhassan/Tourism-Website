@@ -63,3 +63,22 @@
     border-bottom: 1px solid blue;
     cursor: pointer;
 }
+
+/* Add Transport */
+
+
+.transport-adding-form {
+  display: flex;
+}
+.add-form-side {
+  width: 50%;
+  background-color: #fff;
+}
+.add-form-image {
+  width: 50%;
+  height: 100vh;
+}
+
+.add-form-image img {
+  width: 100%;
+}
