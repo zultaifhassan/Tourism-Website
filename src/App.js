@@ -32,7 +32,7 @@ function App() {
           <Route path="rentcar" element={<Rentcar />}></Route>
         </Route>
         <Route path="/dashboard" element={<Dashboardlayout />}>
-          <Route path="d" element={<Dashboarddetail />}></Route>
+          <Route path="" element={<Dashboarddetail />}></Route>
           <Route path="orders" element={<Orders />}></Route>
           <Route path="transport" element={<Addtransport />}></Route>
           <Route path="packages" element={<Addpackages />}></Route>

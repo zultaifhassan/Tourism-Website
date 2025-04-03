@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 80px;
 }
 
 .packages-tables-outer h1 {
@@ -39,7 +40,6 @@
 .packages-list-table th {
   border-bottom: 1px solid rgba(128, 128, 128, 0.54);
   padding: 10px 30px 10px 20px;
-  /* width: 150px; */
   text-align: left;
   color: #9b9b9b;
   font-size: 15px;
@@ -47,23 +47,20 @@
   font-weight: normal;
 }
 .packages-list-table td {
-  /* padding: 20px 30px 20px 20px; */
+  padding: 20px 30px 20px 20px;
   font-size: 14px;
-  margin-bottom: 10px;
   background-color: #fff;
   border-bottom: 5px solid #EFEEEE;
-  text-align: start;
 }
 
 .packages-list-table td span {
   display: flex;
-  background-color: red;
-  height: 100% !important;
-  align-items: center;
-  justify-content: center;
+  /* background-color: red; */
+  height: 100%;
 }
 
 .packages-list-table tr td img {
+  margin: auto;
   width: 50px;
   height: 40px;
 }

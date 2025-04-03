@@ -14,7 +14,7 @@ const Dashboardsidebar = () => {
         <img src="/Images/logo.png" alt="img"></img>
       </div>
       <div className="dashboard-links">
-        <NavLink to="d" className={({ isActive }) => (isActive ? "active-link" : "")}>
+        <NavLink to="" className={({ isActive }) => (isActive ? "active-link" : "")}>
           <span>
             <RxDashboard />
             Dashboards

@@ -37,7 +37,7 @@ const Addpackages = () => {
                   <img src="/Images/Destination/de.jpg" alt="img"></img>
                 </span>
               </td>
-              <td>8 Days</td>
+              <td><span>8 Days</span></td>
               <td>$ 1000</td>
               <td>
                 Naran, Kaghan, Babusar, Hunza, Gilgit, Skardu, Astore, Ghizer,

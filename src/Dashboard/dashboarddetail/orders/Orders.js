@@ -103,6 +103,125 @@ const Orders = () => {
               <img src="/Images/dashboard/delete.png" alt="img"></img>
             </td>
           </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link>Zultaif Hassan</Link>
+            </td>
+            <td>10-04-2025</td>
+            <td>8 Days</td>
+            <td className="status-news">
+              <span>Pending</span>
+            </td>
+            <td>03495419344</td>
+            <td>zultaifhassan110@gmail.com</td>
+            <td>Bunji House Near Post Office</td>
+            <td className="action-icons-editdel">
+              <img src="/Images/dashboard/edit.png" alt="img" />
+              <img src="/Images/dashboard/delete.png" alt="img"></img>
+            </td>
+          </tr>
         </div>
       )}
       {activeTab === "Package Orders" && <div>🛒 Orders Content</div>}

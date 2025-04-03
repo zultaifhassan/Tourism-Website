@@ -12,10 +12,12 @@
     align-items: center;
     justify-content: center;
     background-color: red;
+    position: fixed;
 }
 
 .layout-rightside {
-    width: 80%
+    width: 80%;
+    margin-left: 20%;
 }
 .layout-topbar {
     background-color: #fff;
@@ -23,4 +25,5 @@
     height: 80px;
     display: flex;
     align-items: center;
+    position: fixed;
 }
