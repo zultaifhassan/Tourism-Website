@@ -74,9 +74,39 @@
   width: 50%;
   background-color: #fff;
 }
+
+.add-form-side form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-form-side form h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.add-form-side form span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-form-side form span input {
+  outline: none;
+  background-color: rgba(203, 201, 201, 0.47);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
 .add-form-image {
   width: 50%;
   height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
 .add-form-image img {
