@@ -1,8 +1,22 @@
 import React, { useState } from "react";
 import "./addtransport.css";
+import { MultiSelect } from "react-multi-select-component";
+
+const includingOffers = [
+  { label: "Fuel 🍇", value: "fuel" },
+  { label: "Driver 🥭", value: "driver" },
+  { label: "AC 🍓", value: "ac" },
+  { label: "Strawberry 🍓", value: "strawberry1" },
+];
+
 
 const Addtransport = () => {
   const [activeTab, setActiveTab] = useState("Manage Transport");
+  const [offerSelected, offerSetSelected] = useState([]);
+  const [selected, setSelected] = useState([]);
+
+
+
   return (
     <div className="transport-list-outer">
       <h1>Transport Details</h1>
@@ -65,14 +79,33 @@ const Addtransport = () => {
                 <input type="number" />
               </span>
               <span>
-                <label>Per Day Charges</label>
-                <input type="number" />
+                <label>Capicity</label>
+                <input type="text" />
               </span>
+              <span>
+                <label>Facilities Offer</label>
+                <MultiSelect
+                  options={includingOffers}
+                  value={offerSelected}
+                  onChange={offerSetSelected}
+                  labelledBy="Select"
+                />
+              </span>
+              <span>
+                <label>Facilities Not Offer</label>
+                <MultiSelect
+                  options={includingOffers}
+                  value={selected}
+                  onChange={setSelected}
+                  labelledBy="Select"
+                />
+              </span>
+              <button>Submit</button>
             </form>
           </div>
           <div className="add-form-image">
             <img src="/images/Transport/car.webp" alt="img"></img>
-            <img src="/images/Transport/64419.jpg" alt="img"></img>
+            {/* <img src="/images/Transport/64419.jpg" alt="img"></img> */}
           </div>
         </div>
       )}
