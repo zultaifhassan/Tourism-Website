@@ -7,7 +7,7 @@ import { RiFacebookLine } from "react-icons/ri";
 import { CiInstagram } from "react-icons/ci";
 import { PiYoutubeLogoThin } from "react-icons/pi";
 import { CiLinkedin } from "react-icons/ci";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (

@@ -25,9 +25,6 @@
   border-bottom: 2px solid #000;
 }
 
-
-
-
 .packages-list-table {
   width: 100%;
 }
@@ -35,7 +32,6 @@
 .packages-list-table tr {
   width: 100%;
 }
-
 
 .packages-list-table th {
   border-bottom: 1px solid rgba(128, 128, 128, 0.54);
@@ -47,24 +43,17 @@
   font-weight: normal;
 }
 .packages-list-table td {
-  padding: 20px 30px 20px 20px;
+  padding: 10px 30px 10px 20px;
   font-size: 14px;
   background-color: #fff;
-  border-bottom: 5px solid #EFEEEE;
-}
-
-.packages-list-table td span {
-  display: flex;
-  /* background-color: red; */
-  height: 100%;
+  text-align: start;
+  border-bottom: 5px solid #efeeee;
 }
 
 .packages-list-table tr td img {
-  margin: auto;
   width: 50px;
   height: 40px;
 }
-
 
 .package-list-price {
   width: 100px;
@@ -77,4 +66,44 @@
 .package-list-detele-edit img {
   width: 28px !important;
   height: 28px !important;
+}
+
+/* add packages form section */
+
+.add-packageform-outer {
+  background-color: #fff;
+}
+
+.add-packageform-outer form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-packageform-outer form h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.add-packageform-outer form span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.add-packageform-outer .add-package-inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.add-packageform-outer form span input, select  {
+  outline: none;
+  background-color: rgba(203, 201, 201, 0.47);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
 }

@@ -14,14 +14,14 @@ const Offers = () => {
         </div>
         <div className="packages-grid-line">
           <div className="package-item">
-            <img src="/Images/packages/Fm.jpg" />
+            <img src="/Images/packages/Fm.jpg" alt="img" />
             <div className="price-duration">
               <div className="price-days">
                 <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
                 <div className="location-icon">
                   <CiLocationOn fontSize={20} />
                   <h1>Pakistan</h1>
-                  <img src="/Images/packages/Pakistan.webp" alt="image" />
+                  <img src="/Images/packages/Pakistan.webp" alt="ima" />
                 </div>
               </div>
               <div className="days-persons">
@@ -40,14 +40,14 @@ const Offers = () => {
             </div>
           </div>
           <div className="package-item">
-            <img src="/Images/packages/beiging.webp" />
+            <img src="/Images/packages/beiging.webp" alt="img" />
             <div className="price-duration">
               <div className="price-days">
                 <span>Fairy Meadows, Naran, Kaghan, Hunza, Skardu</span>
                 <div className="location-icon">
                   <CiLocationOn fontSize={20} />
                   <h1>China</h1>
-                  <img src="/Images/packages/China.webp" alt="image" />
+                  <img src="/Images/packages/China.webp" alt="ima" />
                 </div>
               </div>
               <div className="days-persons">

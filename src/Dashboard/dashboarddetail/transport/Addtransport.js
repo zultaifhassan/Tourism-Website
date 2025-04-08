@@ -69,7 +69,7 @@ const Addtransport = () => {
         <div className="transport-adding-form">
           <div className="add-form-side">
             <form>
-              <h2>Add Vehicles Form</h2>
+              <h2>Add Vehicles</h2>
               <span>
                 <label>Vehicle Model</label>
                 <input type="text" />

@@ -55,173 +55,43 @@ const Orders = () => {
             <td>zultaifhassan110@gmail.com</td>
             <td>Bunji House Near Post Office</td>
             <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <Popup
-                trigger={
-                  <img src="/Images/dashboard/delete.png" alt="img"></img>
-                }
-                modal
-                nested
-                className="delete-popup-content">
-                {(close) => (
-                  <div className="close-delete-name">
-                    <h2>Do yau Want to Delete</h2>
-                    <div className="popup-delete-botton">
-                      <span>
-                        <TfiClose
-                          fontSize={30}
-                          color="green"
-                          cursor="Pointer"
-                          onClick={() => close()}
-                        />
-                        <p>Cancel</p>
-                      </span>
-                      <span>
-                        <img src="/Images/dashboard/delete.png" alt="img"></img>
-                        <p>Delete</p>
-                      </span>
+              <div style={{ display: "flex", gap: "20px" }}>
+                <img src="/Images/dashboard/edit.png" alt="img" />
+                <Popup
+                  trigger={
+                    <img src="/Images/dashboard/delete.png" alt="img"></img>
+                  }
+                  modal
+                  nested
+                  className="delete-popup-content">
+                  {(close) => (
+                    <div className="close-delete-name">
+                      <h2>Do yau Want to Delete</h2>
+                      <div className="popup-delete-botton">
+                        <span>
+                          <TfiClose
+                            fontSize={30}
+                            color="green"
+                            cursor="Pointer"
+                            onClick={() => close()}
+                          />
+                          <p>Cancel</p>
+                        </span>
+                        <span>
+                          <img
+                            src="/Images/dashboard/delete.png"
+                            alt="img"></img>
+                          <p>Delete</p>
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                )}
-              </Popup>
+                  )}
+                </Popup>
+              </div>
             </td>
           </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link>Zultaif Hassan</Link>
-            </td>
-            <td>10-04-2025</td>
-            <td>8 Days</td>
-            <td className="status-news">
-              <span>Pending</span>
-            </td>
-            <td>03495419344</td>
-            <td>zultaifhassan110@gmail.com</td>
-            <td>Bunji House Near Post Office</td>
-            <td className="action-icons-editdel">
-              <img src="/Images/dashboard/edit.png" alt="img" />
-              <img src="/Images/dashboard/delete.png" alt="img"></img>
-            </td>
-          </tr>
+          
+
         </div>
       )}
       {activeTab === "Package Orders" && <div>🛒 Orders Content</div>}
