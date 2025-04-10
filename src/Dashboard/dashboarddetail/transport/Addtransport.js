@@ -100,12 +100,15 @@ const Addtransport = () => {
                   labelledBy="Select"
                 />
               </span>
+              <span>
+                <label>Picture</label>
+                <input type="file" />
+              </span>
               <button>Submit</button>
             </form>
           </div>
           <div className="add-form-image">
             <img src="/images/Transport/car.webp" alt="img"></img>
-            {/* <img src="/images/Transport/64419.jpg" alt="img"></img> */}
           </div>
         </div>
       )}

@@ -105,7 +105,7 @@ const Addpackages = () => {
               <h2>Add Packages</h2>
               <div className="add-package-inputs">
                 <span>
-                  <label>Vehicle Model</label>
+                  <label>Package Name</label>
                   <input type="text" />
                 </span>
                 <span>
@@ -115,12 +115,22 @@ const Addpackages = () => {
               </div>
               <div className="add-package-inputs">
                 <span>
-                  <label>Vehicle Model</label>
+                  <label>Visiting Places</label>
                   <input type="text" />
                 </span>
                 <span>
-                  <label>Per Day Charges</label>
+                  <label>Total Days</label>
                   <input type="number" />
+                </span>
+              </div>
+              <div className="add-package-inputs">
+                <span>
+                  <label>Country</label>
+                  <input type="number" />
+                </span>
+                <span>
+                  <label>Picture</label>
+                  <input type="file" />
                 </span>
               </div>
 
