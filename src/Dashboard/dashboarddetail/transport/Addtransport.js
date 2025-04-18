@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import "./addtransport.css";
 import { MultiSelect } from "react-multi-select-component";
+import axios from "axios";
+import { useMutation } from "@tanstack/react-query";
+
+const addVehicle = async (newVehicle) => {
+  const response = await axios.post(
+    "http://localhost:5000/api/vehicle",
+    newVehicle
+  );
+  return response.data;
+};
 
 const includingOffers = [
   { label: "Fuel 🍇", value: "fuel" },
@@ -9,13 +19,26 @@ const includingOffers = [
   { label: "Strawberry 🍓", value: "strawberry1" },
 ];
 
-
 const Addtransport = () => {
   const [activeTab, setActiveTab] = useState("Manage Transport");
   const [offerSelected, offerSetSelected] = useState([]);
   const [selected, setSelected] = useState([]);
 
+  const [name, setName] = useState("");
+  const [price, setPrice] = useState("");
+  const [including, setIncluding] = useState("");
+  const [notincluding, setNotincluding] = useState("");
+  const [capacity, setCapacity] = useState("");
 
+  const { mutate, isPending, isSuccess, isError, error } = useMutation({
+    mutationFn: addVehicle,
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    mutate({ name, price, capacity, including, notincluding });
+    const selectedOfferValues = offerSelected.map(offer => offer.value)
+  };
 
   return (
     <div className="transport-list-outer">
@@ -68,19 +91,34 @@ const Addtransport = () => {
       {activeTab === "Add Transport" && (
         <div className="transport-adding-form">
           <div className="add-form-side">
-            <form>
+            <form onSubmit={handleSubmit}>
               <h2>Add Vehicles</h2>
               <span>
                 <label>Vehicle Model</label>
-                <input type="text" />
+                <input
+                  type="text"
+                  placeholder="Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
               </span>
               <span>
                 <label>Per Day Charges</label>
-                <input type="number" />
+                <input
+                  type="Number"
+                  placeholder="Price"
+                  value={price}
+                  onChange={(e) => setPrice(e.target.value)}
+                />
               </span>
               <span>
                 <label>Capicity</label>
-                <input type="text" />
+                <input
+                  type="Number"
+                  placeholder="Capacity"
+                  value={capacity}
+                  onChange={(e) => setCapacity(e.target.value)}
+                />
               </span>
               <span>
                 <label>Facilities Offer</label>
@@ -104,8 +142,12 @@ const Addtransport = () => {
                 <label>Picture</label>
                 <input type="file" />
               </span>
-              <button>Submit</button>
+              <button type="submit" disabled={isPending}>
+                {isPending ? "Submitting..." : "Submit"}
+              </button>
             </form>
+            {isSuccess && <p>User added successfully!</p>}
+            {isError && <p>Error: {error.message}</p>}
           </div>
           <div className="add-form-image">
             <img src="/images/Transport/car.webp" alt="img"></img>
